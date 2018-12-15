@@ -1,6 +1,6 @@
 /*
 Author: 		Annie Wu
-Assignment:	    Homework #4
+Assignment:		Homework #4
 
 Class:			CS 2560.01 - C++ Programming
 Date:			14 December 2018
