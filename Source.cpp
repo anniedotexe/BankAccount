@@ -1,18 +1,18 @@
 /*
 Author: 		Annie Wu
-Assignment:	    Homework #4
+Assignment:		Homework #4
 
 Class:			CS 2560.01 - C++ Programming
 Date:			14 December 2018
 
 Purpose:		This file holds the main class that contains a menu-driven system
-				that allows to user to:
-					- Make a deposit to savings
-					- Make a deposit to checkings
-					- Make a withdrawal from savings
-					- Make a withdrawal from checkings
-					- View the balance of either
-					- Indicate that a month has passed (i.e. call the monthlyProc functions)
+			that allows to user to:
+				- Make a deposit to savings
+				- Make a deposit to checkings
+				- Make a withdrawal from savings
+				- Make a withdrawal from checkings
+				- View the balance of either
+				- Indicate that a month has passed (i.e. call the monthlyProc functions)
 */
 
 #include "Account.h"
