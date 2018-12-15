@@ -12,7 +12,7 @@ Purpose:		This file holds the main class that contains a menu-driven system
 				- Make a withdrawal from savings
 				- Make a withdrawal from checkings
 				- View the balance of either
-				- Indicate that a month has passed (i.e. call the monthlyProc functions)
+				- Indicate that a month has passed
 */
 
 #include "Account.h"
