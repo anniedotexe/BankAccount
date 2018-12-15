@@ -1,12 +1,12 @@
 /*
 Author: 		Annie Wu
-Assignment:	    Homework #4
+Assignment:		Homework #4
 
 Class:			CS 2560.01 - C++ Programming
 Date:			14 December 2018
 
 Purpose:		This file holds the SavingsAccount class that is derived from Account.
-				It additionally holds the infomation about the status of an account.
+			It additionally holds the infomation about the status of an account.
 
 */
 
