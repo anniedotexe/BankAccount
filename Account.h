@@ -1,16 +1,16 @@
 /*
 Author: 		Annie Wu
-Assignment:	    Homework #4
+Assignment:		Homework #4
 
 Class:			CS 2560.01 - C++ Programming
 Date:			14 December 2018
 
 Purpose:		This file holds the base class for bank account information:
-					- Balance
-					- Number of deposits this month
-					- Number of withdrawals
-					- Annual Interest Rate
-					- Monthly service charges
+				- Balance
+				- Number of deposits this month
+				- Number of withdrawals
+				- Annual Interest Rate
+				- Monthly service charges
 
 */
 
