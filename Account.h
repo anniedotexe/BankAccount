@@ -6,16 +6,14 @@ Class:			CS 2560.01 - C++ Programming
 Date:			14 December 2018
 
 Purpose:		This file holds the base class for bank account information:
-				- Balance
-				- Number of deposits this month
-				- Number of withdrawals
-				- Annual Interest Rate
-				- Monthly service charges
-
+					- Balance
+					- Number of deposits this month
+					- Number of withdrawals
+					- Annual Interest Rate
+					- Monthly service charges
 */
 
 #pragma once
-
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -23,7 +21,9 @@ using namespace std;
 
 //base class
 class Account {
+
 protected:
+	
 	double balance; //account balance
 	int deposits; //number of deposits
 	int withdrawals; //number of withdrawls
@@ -31,6 +31,7 @@ protected:
 	double serviceCharge; //monthly service charges
 
 public:
+	
 	Account(double bal, double interest) {
 		balance = bal;
 		interestRate = interest / 100.0; //convert from percentage to decimal
@@ -38,7 +39,7 @@ public:
 		deposits = 0;
 		serviceCharge = 0;
 	}
-	
+
 	virtual void deposit(double depositAmount) {
 		balance += depositAmount;
 		cout << fixed << setprecision(2);

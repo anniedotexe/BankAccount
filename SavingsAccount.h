@@ -7,24 +7,25 @@ Date:			14 December 2018
 
 Purpose:		This file holds the SavingsAccount class that is derived from Account.
 			It additionally holds the infomation about the status of an account.
-
 */
 
 #pragma once
-
 #include <iostream>
 #include <string>
 using namespace std;
 
 class SavingsAccount : public Account {
+
 private:
+	
 	bool status; //true for active, false for inactive
 
 public:
+	
 	SavingsAccount(double b, double i) : Account(b, i) {
 		checkStatus();
 	}
-	
+
 	virtual void deposit() {
 		double amount = 0.0;
 		cout << "\nHow much would you like to deposit to Savings Account? ";

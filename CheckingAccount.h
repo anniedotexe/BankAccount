@@ -6,18 +6,18 @@ Class:			CS 2560.01 - C++ Programming
 Date:			14 December 2018
 
 Purpose:		This file holds the CheckingAccount class that is derived from Account.
-
 */
 
 #pragma once
-
 #include <iostream>
 #include <string>
 using namespace std;
 
 class CheckingAccount : public Account {
+
 public:
-	CheckingAccount(double b, double i) : Account(b,i) { }
+
+	CheckingAccount(double b, double i) : Account(b, i) { }
 	virtual void withdraw() {
 		double amount = 0.0;
 		cout << "\nHow much would you like to withdraw from Checking Account? ";
